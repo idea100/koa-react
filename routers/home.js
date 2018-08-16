@@ -1,7 +1,9 @@
-const router = require('koa-router')();
+import router from 'koa-router';
 
-router.get('/home', async(ctx, next) => {
+const koarouter = router();
+
+koarouter.get('/home', async (ctx, next) => {
     ctx.body = {result: true};
 });
 
-module.exports = router;
+export default koarouter;

@@ -1,7 +1,9 @@
-const router = require('koa-router')();
+import router from 'koa-router';
 
-router.get('/activity', async(ctx, next) => {
-    ctx.body = {activity: 'good job!'};
+const homeRouter = router();
+
+homeRouter.get('/activity', async(ctx, next) => {
+    ctx.body = {result: 'good'};
 });
 
-module.exports = router;
+export default homeRouter;
