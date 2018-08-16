@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "koa": "^2.5.2"
+    "koa": "^2.5.2",
+    "koa-router": "^7.4.0"
   }
 }
