@@ -16,7 +16,7 @@ homeRouter.get('/activity', async(ctx, next) => {
         <html lang="en" dir="ltr">
           <head>
             <meta charset="utf-8">
-            <title></title>
+            <title>react server side render</title>
           </head>
           <body>
             ${ReactDOMServer.renderToString(<MyComponent/>)}
