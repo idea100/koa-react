@@ -1,8 +1,11 @@
 {
   "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-register": "^6.26.0",
     "koa": "^2.5.2",
-    "koa-router": "^7.4.0"
+    "koa-router": "^7.4.0",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
   }
 }
