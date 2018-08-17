@@ -19,7 +19,10 @@ homeRouter.get('/activity', async(ctx, next) => {
             <title>react server side render</title>
           </head>
           <body>
-            ${ReactDOMServer.renderToString(<MyComponent/>)}
+            <div id="root">
+                ${ReactDOMServer.renderToString(React.createElement(MyComponent))}
+            </div>
+            <script src="/js/main.eb8682d0.js"></script>
           </body>
         </html>
     `;

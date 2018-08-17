@@ -5,6 +5,7 @@
     "babel-register": "^6.26.0",
     "koa": "^2.5.2",
     "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
     "react": "^16.4.2",
     "react-dom": "^16.4.2"
   }
